@@ -1,0 +1,188 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-nav{
+  padding: "1rem";
+  text-align: "center";
+}
+
+.app-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-banner{
+  width: 100vw;
+  height: 50vh;
+  background-color: #D49E8D;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:100;
+  font-style: normal;
+  font-size: 4rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px #000;
+}
+
+/* .hero-title {
+  
+} */
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.main-nav {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  color: #e67e22;
+}
+a {
+  font-weight: 500;
+  color: #e67e22;
+  text-decoration: inherit;
+}
+a:hover {
+  color:  #c35c0c;
+}
+
+.home-container{
+    padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.5rem;
+}
+h2{
+  font-size: 2rem;
+  color: #666;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  border: 1px solid transparent;
+  
+
+}
+
+button:hover {
+  background-color: #cf5a0a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.search-input {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-right: 0.8rem;
+  margin-top: 10px;
+}
+
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
+  padding: 2rem;
+  justify-items: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: black;
+  }
+}
