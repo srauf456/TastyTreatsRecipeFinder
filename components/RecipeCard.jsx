@@ -15,7 +15,7 @@ return(
       >
     <Link to={`/recipes/${props.id}`}>
    <img src={props.image} />
-<h1 className="recipe-title">{props.title}</h1>
+<h1 className="recipe-title text-2xl text-amber-300">{props.title}</h1>
 <p>{props.serving}</p>
 </Link>
     </motion.div>

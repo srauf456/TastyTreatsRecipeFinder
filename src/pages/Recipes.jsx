@@ -34,10 +34,10 @@ return (
     >
         
         {recipes.map(recipe =>(
-              
-               <RecipeCard  key={recipe.id} id={recipe.id} title={recipe.title} />
-               
-            
+
+               <RecipeCard className="text-2xl text-amber-300" key={recipe.id} id={recipe.id} title={recipe.title} />
+
+
         ))
           
         }

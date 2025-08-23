@@ -33,7 +33,7 @@ function handleSubmit(){
             {loading && <p>Loading recipes...</p>}
             {error && <p style={{color: "red"}}>{error}</p> }
               <input className="search-input" placeholder="Search recipes..." onChange={handleChange} value={query} type="text"/>
-              <button type="submit" onClick={handleSubmit} >SEARCH</button>
+              <button type="submit" onClick={handleSubmit} className="text-[#dfb459]">SEARCH</button>
               <div className="search-results">
                 {searchResults.map(searchitem =>
                      <RecipeCard key={searchitem.id} id={searchitem.id} title={searchitem.title} image={searchitem.image}/>

@@ -28,13 +28,10 @@ useEffect(()=>{
 if (!recipe) return <p>Loading...</p>;
     
     return (
-        <div className="home-container">
-              
-            
-           
-            <h2>Today's Featured Recipe</h2>
-            <Link to="/recipes"><h3 style={{fontWeight: "bold"}}>GET MORE RECIPES</h3></Link> 
-         
+        <div className="min-h-screen bg-[#183d38]  flex flex-col items-center">
+            <h2 className="text-5xl font-bold dancing-script-font text-[#dfb459] p-4">Today's Featured Recipe</h2>
+            <Link to="/recipes"><h3 className="text-2xl pb-6  text-[#dfb459]">GET MORE RECIPES</h3></Link> 
+
   <RecipeCard id={recipe.id} title={recipe.title} image={recipe.image}/>
 
             

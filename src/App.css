@@ -1,7 +1,8 @@
+@import "tailwindcss";
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* max-width: 1280px; */
+   margin: 0 auto; 
+  /* padding: 2rem; */
   text-align: center;
 }
 
@@ -41,8 +42,7 @@
   color: #888;
 }
 
-/* B08401
-D49E8D
-DED1BD
-FAF6F2
-683B2B */
+/*F7C334
+2F2A2A
+FFFFFF
+ */
