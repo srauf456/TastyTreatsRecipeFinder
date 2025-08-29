@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import RecipeCard from "../../components/RecipeCard";
+import RecipeCard from "../components/RecipeCard";
 import { getRandomRecipes } from "../api/recipeApi";
 import {motion} from "framer-motion"
 //should have state as it is managing component
@@ -35,7 +35,7 @@ return (
         
         {recipes.map(recipe =>(
 
-               <RecipeCard className="text-2xl text-amber-300" key={recipe.id} id={recipe.id} title={recipe.title} />
+               <RecipeCard key={recipe.id} id={recipe.id} title={recipe.title} />
 
 
         ))

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { searchRecipes } from "../api/recipeApi";
-import RecipeCard from "../../components/RecipeCard";
+import RecipeCard from "../components/RecipeCard";
 function Search(){
     const [query, setQuery] = useState("");
          const [searchResults, setSearchResults] = useState([]);
