@@ -20,7 +20,7 @@ export default function App() {
       <Navbar/>
       <main className="flex-1">
   <Routes>
-        <Route path="/home" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
          <Route path="/recipes" element={<Recipes/>} /> 
          <Route path="/recipes/:id" element={<RecipeDetail/>} /> 
           <Route path="/search" element={<Search/>} /> 
