@@ -29,22 +29,22 @@ useEffect(()=>{
 },[]);
 
 
-if (!recipe) return <p>Loading...</p>;
+if (!recipe) return <p className="text-center p-6">Loading...</p>;
     
     return (
-        <div>
+        <div className="bg-[#112e2b] text-gray-900">
 
-    <header className='relative p-10 border border-[#183d38]    bg-[#112e2b]'>
-   <div className="flex flex-col items-center md:flex-row p-10">
-   <img src={logoImg} alt="Logo" className="p-4 ml-6 w-62 h-62 " />
+    <header className='relative p-10 border-b border-[#183d38]    bg-[#112e2b]'>
+   <div className="flex flex-col items-center lg:flex-row p-10 justify-between mx-auto max-w-7xl">
+   <img src={logoImg} alt="Logo" className="p-4  w-52 h-52" />
 
- <h1 className='playfair-display-font text-8xl text-white'>Dive into a <span className='text-[#dfb459] dancing-script-font text-6xl'>Delightful Experience</span></h1>
+ <h1 className='leading-tight text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-center p-4'>Dive into a <span className='text-[#dfb459] dancing-script-font md:text-6xl pb-2 text-4xl sm:text-5xl lg:text-7xl'>Delightful Experience</span></h1>
 
 
-    <img src={foodImg} alt="food" className='rounded-4xl w-200 h-150 opacity-100' />
+    <img src={foodImg} alt="food" className='rounded-4xl w-full h-auto mt-6 opacity-100 object-cover shadow-lg max-w-lg' />
 
     </div>
-<div className="flex justify-end ">
+<div className="flex justify-end px-6 pb-6 ">
         <button type="button" className="w-24 h-24 border-2 border-[#dfb459] p-2 playfair-display-font text-md text-white animate-pulse rounded-full color-[#dfb459]" disabled>
 
   BOOK A TABLE

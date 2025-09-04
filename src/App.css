@@ -1,9 +1,12 @@
 
 #root {
   /* max-width: 1280px; */
-   margin: 0 auto; 
-  /* padding: 2rem; */
+   margin: 0; 
+  padding: 0;
   text-align: center;
+  width: 100%;
+  min-height: 100vh;
+   overflow-x: hidden;
    /* font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; */
 
   
